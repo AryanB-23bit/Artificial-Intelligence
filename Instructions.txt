@@ -1,0 +1,8 @@
+In order to run the program, you must have the training and testing data in the following directories:
+    data\mnist_train.csv
+    data\mnist_test.csv
+
+After ensuring a proper project structure the code may be ran, feature extraction will take at least a minute depending on computer hardware,
+and when completed it will display the time it took for feature extraction. After this is shown in the console the program will then begin fitting 
+and predicting using the various models, this will also likely take at least a minute and should not be cancelled until the 
+final evaluation metrics are shown.
